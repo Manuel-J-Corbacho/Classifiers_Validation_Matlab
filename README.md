@@ -23,4 +23,6 @@ Validations:
   
   Random-Sampling
   
+  # Data Format
   
+  The datas must be in a matrix, where each column is a item and every row an attribute of the items
