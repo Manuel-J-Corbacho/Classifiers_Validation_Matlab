@@ -1,4 +1,4 @@
-function[outy,tasaacierto] = clasifeuclid(xtrn,ytrn,xtest,ytest)
+function [outy,tasaacierto] = clasifeuclid(xtrn,ytrn,xtest,ytest)
     i=min(ytrn);d=[];
     while i<=max(ytrn)
         m=meanpat( myclass(xtrn,ytrn,i) ) ;
